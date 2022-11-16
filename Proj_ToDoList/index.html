@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="pageTitle">To do List</h1>
+        <hr>
+
+        <div class="div1">
+            <input type="text" class="inserirTarefa" placeholder="Insira uma tarefa..." maxlength="110" required>
+            <button type="submit" class="botaoAdd">Adicionar tarefa</button>
+        </div>
+
+        <div class="div2">
+            <ul>
+                
+            </ul>
+        </div>
+        <a class="deleteAll" onclick="deletaTodasTarefas()"><i class="bx bxs-trash-alt"></i></a>
+    </div>
+
+    <div class="light">
+        <div class="switch">
+            <div class="btn"></div>
+        </div>     
+    </div>
+
+    <audio id="audio" src="/Assets/Audio/click.mp3" autostart="false"></audio>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
